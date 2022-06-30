@@ -3,5 +3,5 @@
 
 /* Ship icon fix by dankdmitron */
 .ship-image {
-    filter: invert();
+    filter: invert(1);
 }
