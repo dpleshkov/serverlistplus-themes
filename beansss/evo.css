@@ -1,33 +1,42 @@
-/* Serverlist+ Asu theme
-   by apathy#3993 on discord */
+/* evo theme, dont judge
+by beansss#9355
+go touch grass sometime*/
 body {
-  background-image: url(https://raw.githubusercontent.com/apxthyy/icons/main/clean.jpg);
+  background-image: url(https://cdn.discordapp.com/attachments/679516768846348310/971597720991170560/image1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  font: "Roboto Mono";
+  font: "Times New Roman";
 }
+/*
+system name and time
+*/
 h3 {
-    color:#23587a;
-    border-radius: 15px;
-      border-color: #00000000;
+    color:#06cfa3;
+    border-radius: 20px;
+      border-color: #aaa6ff;
 }
+/*
+region, mode, options label
+*/
 h5 {
-    color:#23587a;
+    color:#6390ff;
 }
 .card {
-  background-color: #00000000;
+  background-color: #0000;
   border: 1.5px solid #0000;
   transition-duration: 0.4s;
+  
 }
 .card:hover{
   border-radius: 5px;
   backdrop-filter: brightness(0.8) blur(2px) saturate(1.1);
-  border: 1.5px solid #fff!important; } 
-
+  border: 1.5px solid #ccfff1!important; } 
+/*
+serverlist+ at top left, blank ecp count, # of players*/
 b {
-    color:gold;
+    color:#6390ff;
 }
 i {
     color:gold;
@@ -50,13 +59,15 @@ i {
     display:none;
       font-size:1px;
 }
+/*
+region, mode, options colors*/
 label {
-    color:#fff;
-    font-weight: 500;
+    color:#b44cc7;
+    font-weight: 700;
   
 }
 .modal-content {
-  background-color:#23587a;
+  background-color:#aaaaaa;
 }
 #systemsList::-webkit-scrollbar {
   width: 0;
@@ -67,15 +78,17 @@ label {
   background-color:#0000
 }
 footer {
-  color: gold;
+  color: yellow;
   font-size:1px;
   display: none; 
 }
+/*player list*/
 #systemReportPlayerList {
-  color: gold;
+  color: #083685;
 }
+/*join game button*/
 #systemReportLink {
-  color: gold;
+  color: #FF00ff;
 }
 #systemReportLink:hover {
   backdrop-filter: brightness(0.8) blur(2px) saturate(1.1);
